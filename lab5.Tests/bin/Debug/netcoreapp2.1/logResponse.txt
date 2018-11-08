@@ -1,0 +1,425 @@
+
+Log Entry : 21:51:12 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+-------------------------------
+
+Log Entry : 21:51:12 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+-------------------------------
+
+Log Entry : 21:51:12 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+-------------------------------
+
+Log Entry : 21:52:41 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:52:41 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:52:41 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:28 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:28 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:28 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:55:29 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 21:59:35 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:24 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :add test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/add', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :multiplication test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/multiplication', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :percent test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/percent', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:-2;-200; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:10;0,5; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------
+
+Log Entry : 22:15:25 четверг, 8 ноября 2018 г.
+  :
+  :division test; Values:100;20; Status code: OK
+System.Net.Http.StreamContent
+Method: POST, RequestUri: 'http://localhost/division', Version: 2.0, Content: System.Net.Http.StringContent, Headers:
+{
+  Content-Type: application/json; charset=utf-8
+}
+
+-------------------------------

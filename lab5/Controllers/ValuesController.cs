@@ -17,6 +17,8 @@ namespace lab5.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+            StatusCode(200);
+           // return Ok();
             return Redirect("~/Index.html");
         }
 
@@ -37,7 +39,7 @@ namespace lab5.Controllers
                 {
                     res = result,
                 };
-
+                Response.StatusCode = 200;
                 Response.ContentType = "application/json";
                 await Response.WriteAsync(JsonConvert.SerializeObject(response, new JsonSerializerSettings { Formatting = Formatting.Indented }));
                // return result;
@@ -45,7 +47,7 @@ namespace lab5.Controllers
             catch (Exception e)
             {
                 Response.StatusCode = 400;
-                await Response.WriteAsync("Some ting wong.");
+                await Response.WriteAsync("Some ting wong." + e.ToString());
                 return;
             }
         }
@@ -65,10 +67,11 @@ namespace lab5.Controllers
                 {
                     res = result,
                 };
-
+                
                 Response.ContentType = "application/json";
+                Response.StatusCode = 200;
                 await Response.WriteAsync(JsonConvert.SerializeObject(response, new JsonSerializerSettings { Formatting = Formatting.Indented }));
-
+                
             }
             catch (Exception e)
             {
