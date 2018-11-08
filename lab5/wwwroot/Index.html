@@ -1,0 +1,80 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab5</title>
+</head>
+<body>
+
+<div class="calculate">
+    <label>First value</label><br/>
+    <input type="text" id="val1" value="0"/> <br/><br/>
+    <label>Second value</label><br/>
+    <input type="text" id="val2" value="0"/><br/><br/>
+    <input type="submit" id="add" value="Add"/>
+    <input type="submit" id="subtraction" value="Subtraction"/>
+    <input type="submit" id="division" value="Division"/>
+    <input type="submit" id="multiplication" value="Multiplication"/>
+    <input type="submit" id="percent" value="Percent"/>
+    <hr/>
+    <label>result:</label><br/>
+    <input type="text" id="result"/><br/><br/>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+
+    function toDo(button, url) {
+        $(button).click(function(e) {
+            e.preventDefault();
+            var data = {
+                //grant_type: 'password',
+                val1: $('#val1').val(),
+                val2: $('#val2').val()
+            };
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: data
+            }).success(function(data) {
+
+                $('#result').val(data.res);
+                console.log(data.res);
+            }).fail(function(data) {
+                console.log(data);
+            });
+        });
+    }
+
+    function toDo2(button, url) {
+        $(button).click(function(e) {
+            e.preventDefault();
+           var v1 = $('#val1').val();
+           var v2 = $('#val2').val();
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: "application/json",
+                method: "POST",
+                data: JSON.stringify({
+                    val1: v1,
+                    val2: v2
+                }),
+            }).success(function(data) {
+
+                $('#result').val(data.res);
+                console.log(data.res);
+            }).fail(function(data) {
+                console.log(data);
+            });
+        });
+    }
+
+    toDo2('#add', '/add');
+    toDo2('#subtraction', '/subtraction');
+    toDo2('#division', '/division');
+    toDo2('#multiplication', '/multiplication');
+    toDo2('#percent', '/percent');
+
+</script>
+</body>
+</html>
